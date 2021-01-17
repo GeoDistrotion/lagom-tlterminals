@@ -1,0 +1,76 @@
+@import '../../index.scss';
+
+#HomePage{
+    .sect-01{
+        .img-cont{
+            width: 100%;
+            height: 620px;
+        }
+        p{
+            margin: 150px;
+        }
+        h2{
+            width: 275px;
+            margin: 188px 0 0 150px;
+            font-size: 40px;
+            line-height: 46px;
+            font-weight: 400;
+        }
+    }
+    .sect-02{
+        .customer-logos{
+            display: flex;
+            margin:150px 0 150px 150px;
+            .item-logo{
+                &:first-child{
+                    width: 240px;
+                    margin-right: 86px;
+                }
+                &:last-child{
+                    width: 90px;
+                }
+            }
+        }
+        .customer-desc{
+            margin: 100px 0 0 150px;
+            .item-desc{
+                h3{
+                    color: $deep-blue;
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 18px;
+                    color: $p-gray;
+                }
+                &:first-child{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+    .sect-03{
+        .img-cont{
+            width: 100%;
+            height: 720px;
+        }
+        .usp-list{
+            margin: 155px 0 0 150px;
+            ul{
+                list-style: none;
+                li{
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-style: normal;
+                    line-height: 32px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: $deep-blue;
+                    margin-bottom: 20px;
+                    .inner-list{
+                        margin: 20px 0 0 50px;
+                    }
+                }
+            }
+        }
+    }
+}

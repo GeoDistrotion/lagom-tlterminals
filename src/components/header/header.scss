@@ -1,0 +1,23 @@
+@import '../../index.scss';
+
+header{
+    width: 100%;
+    border-bottom: 1px solid $deep-blue;
+    h1{
+        color: $deep-blue;
+        font-size: 18px;
+        margin: 37px 0 37px 49px;
+        text-transform: uppercase;
+    }
+    #MenuBars{
+        width: 50px;
+        height: 32px;
+        display: block;
+        margin: 34px 50px 0 auto;
+        cursor: pointer;
+        img{
+            width: 50px;
+            height: 32px;
+        }
+    }
+}

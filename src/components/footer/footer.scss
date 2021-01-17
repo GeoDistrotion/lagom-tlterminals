@@ -1,0 +1,27 @@
+@import '../../index.scss';
+footer{
+    p{
+        margin: 100px;
+    }
+    ul{
+        margin: 100px 0 100px auto;
+        list-style: none;
+        display: flex;
+        text-align: right;
+        justify-content: right;
+        li{
+            margin-right: 40px;
+            a{
+                text-decoration: none;
+                color: $deep-blue;
+                font-family: Poppins;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+    }
+}

@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.scss';
+import Header from './components/header/header';
+import HomePage from './pages/home/page-home';
+import Footer from './components/footer/footer';
+import MainMenu from './components/mainmenu/main-menu';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <MainMenu />
+    <HomePage />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
-reportWebVitals();
