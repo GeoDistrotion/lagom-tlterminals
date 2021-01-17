@@ -6,6 +6,9 @@ $medium-blue: #6a6a98;
 $hard-blue: #383876;
 $deep-blue: #060654;
 
+$tablet: 740px;
+$mobile: 600px;
+
 *, *:focus{
   outline: none;
   margin:0;
@@ -81,12 +84,42 @@ p{
 .col-lg-2{
   width: 20%;
 }
+.ord-lg-1{
+  order: 1;
+}
+.ord-lg-2{
+  order: 2;
+}
 
-@media(max-width: 600px){
+@media(max-width: $mobile){
+  p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .detail-dots{
+    margin: 60px 0 0 30px;
+    li{
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .bdr-right{
+    border-right: none;
+  }
+  .row-mb-wrap{
+    flex-wrap: wrap;
+  }
   .col-6{
     width: 50%;
   }
   .col-12{
     width: 100%;
+  }
+  .ord-1{
+    order: 1;
+  }
+  .ord-2{
+    order: 2;
   }
 }

@@ -9,14 +9,14 @@ function HomePage(){
         <div id="HomePage" className="main-container">
             <section className="sect-01 bdr-bottom">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-lg-6 bdr-right">
+                    <div className="row-mb-wrap row">
+                        <div className="col-12 col-lg-6 ord-2 ord-lg-1 bdr-right">
                             <div className="img-cont">
                                 <img src={HomeMainTrains} alt="TLTermial" />
                             </div>
                             <p>Shipping by rail is a more cost-effective option. Many shippers don ́t have tracks at their door. In TLT we provide transloading equipment and warehouses for storage at your site.</p>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6 ord-1 ord-lg-2">
                             <ul className="detail-dots">
                                 <li></li>
                                 <li></li>
@@ -32,8 +32,8 @@ function HomePage(){
             </section>
             <section className="sect-02 bdr-bottom">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-lg-6 bdr-right">
+                    <div className="row-mb-wrap row">
+                        <div className="col-12 col-lg-6 ord-2 ord-lg-1 bdr-right">
                             <div className="customer-logos">
                                 <div className="item-logo">
                                     <img src={HomeClient01} alt=""/>
@@ -43,7 +43,7 @@ function HomePage(){
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6 ord-1 ord-lg-2">
                             <div className="customer-desc">
                                 <div className="item-desc">
                                     <h3>Ferromex</h3>
@@ -60,7 +60,7 @@ function HomePage(){
             </section>
             <section className="sect-03 bdr-bottom">
                 <div className="container">
-                    <div className="row">
+                    <div className="row-mb-wrap row">
                         <div className="col-12 col-lg-6 bdr-right">
                             <div className="usp-list">
                                 <ul>

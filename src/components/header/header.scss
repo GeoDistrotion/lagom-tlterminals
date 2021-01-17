@@ -20,4 +20,18 @@ header{
             height: 32px;
         }
     }
+    @media(max-width: $mobile){
+        h1{
+            margin: 35px 0 35px 30px; 
+        }
+        #MenuBars{
+            width: 34px;
+            height: 22px;
+            margin: 39px 30px 0 auto;
+            img{
+                width: 34px;
+                height: 22px;
+            }
+        }
+    }
 }
