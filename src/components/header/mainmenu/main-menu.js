@@ -3,6 +3,10 @@ import "./main-menu.scss";
 function MainMenu(){
     return(
         <nav id="MainMenu">
+            <button className="close-btn">
+                <div></div>
+                <div></div>
+            </button>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Freight Transloading</a></li>

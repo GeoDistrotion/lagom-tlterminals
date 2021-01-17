@@ -1,5 +1,6 @@
 import './header.scss';
 import MenuBars from '../../assets/header/TLTerminals-header-collapse-menu.svg'
+import MainMenu from './mainmenu/main-menu';
 
 function Header(){
     return(
@@ -16,6 +17,7 @@ function Header(){
                     </div>
                 </div>
             </div>
+            <MainMenu></MainMenu>
         </header>
     );
 }
