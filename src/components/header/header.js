@@ -1,10 +1,15 @@
 import './header.scss';
 import MenuBars from '../../assets/header/TLTerminals-header-collapse-menu.svg'
 import MainMenu from './mainmenu/main-menu';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Header(){
     const [statusmenu, setStatusMenu] = useState('menu-off');
+    useEffect(() => {
+        let currentStatus = (statusmenu == 'menu-off')? 'menu-on':'menu-off';
+        document.body.classList.remove(currentStatus);
+        document.body.classList.add(statusmenu);
+    });
     return(
         <header>
             <div className="container">
@@ -13,7 +18,7 @@ function Header(){
                         TLTerminals
                     </h1>
                     <div className="col-6 col-lg-6">
-                        <button id="MenuBars" onClick={ () => setStatusMenu('menu-on')} onTouchStart={ () => setStatusMenu('menu-on')}>
+                        <button id="MenuBars" onClick={ () => setStatusMenu('menu-on')}>
                             <img src={MenuBars} alt="" />
                         </button>
                     </div>

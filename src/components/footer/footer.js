@@ -5,29 +5,29 @@ function Footer(){
         <footer>
             <div className="container">
                 <div className="row row-mb-wrap">
-                    <div className="col-12 col-lg-2 ord-lg-1 ord-2">
+                    <div className="col-12 col-lg-3 ord-lg-1 ord-2">
                         <p>© 2020</p>
                     </div>
-                    <div className="col-12 col-lg-10 ord-lg-2 ord-1">
+                    <div className="col-12 col-lg-9 ord-lg-2 ord-1">
                         <nav>
                             <ul className="row-mb-wrap">
                                 <li className="col-12">
-                                    <a href="#">Home</a>
+                                    <a href="index.html">Home</a>
                                 </li>
                                 <li className="col-12">
-                                    <a href="#">Transloading</a>
+                                    <a href="index.html">Transloading</a>
                                 </li>
                                 <li className="col-12">
-                                    <a href="#">Forwarding</a>
+                                    <a href="index.html">Forwarding</a>
                                 </li>
                                 <li className="col-12">
-                                    <a href="#">Ecofriendly</a>
+                                    <a href="index.html">Ecofriendly</a>
                                 </li>
                                 <li className="col-12">
-                                    <a href="#">FAQs</a>
+                                    <a href="index.html">FAQs</a>
                                 </li>
                                 <li className="col-12">
-                                    <a href="#">Contact</a>
+                                    <a href="index.html">Contact</a>
                                 </li>
                             </ul>
                         </nav>
