@@ -1,19 +1,21 @@
 import "./main-menu.scss";
 
-function MainMenu(){
+function MainMenu(props){
     return(
-        <nav id="MainMenu">
-            <button className="close-btn">
-                <div></div>
-                <div></div>
-            </button>
+        <nav id="MainMenu" className={props.menustatus}>
+            <div className="container">
+                <button className="close-btn" onClick={()=> props.onClick('menu-off')}>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Freight Transloading</a></li>
-                <li><a href="#">Freight Forwarding</a></li>
-                <li><a href="#">Ecofriendly</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Freight Transloading</a></li>
+                <li><a href="index.html">Freight Forwarding</a></li>
+                <li><a href="index.html">Ecofriendly</a></li>
+                <li><a href="index.html">FAQs</a></li>
+                <li><a href="index.html">Contact</a></li>
             </ul>
         </nav>
     );

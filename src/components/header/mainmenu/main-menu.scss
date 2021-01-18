@@ -1,8 +1,18 @@
 @import '../../../index.scss';
 
 #MainMenu{
-    // display: none;
+    &.menu-off{
+        opacity: 0;
+        z-index: -1;
+    }
+    &.menu-on{
+        z-index: 100;
+        opacity: 1;
+    }
+    transition: all 0.5s;
+    opacity: 0;
     position: fixed;
+    opacity: 1;
     width: 100%;
     height: 100%;
     left: 0;
@@ -14,6 +24,7 @@
         display: block;
         margin: 30px 55px 0 auto;
         position: relative;
+        cursor: pointer;
         div{
             position: absolute;
             left: 0;
@@ -50,6 +61,26 @@
                 text-align: left;
                 color: white;
                 text-decoration: none;
+                position: relative;
+                transition: all 0.5s;
+                &:after{
+                    content: "⟶";
+                    position: absolute;
+                    top: 15px;
+                    right: 10px;
+                    color: white;
+                    font-family: "Inter";
+                    font-weight: 400;
+                    opacity: 0;
+                    transition: all 0.5s;
+                }
+                &:hover{
+                    padding-left: 20px;
+                    &:after{
+                        opacity: 1;
+                        right: 30px;
+                    }
+                }
             }
         }
     }
